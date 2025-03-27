@@ -3,7 +3,7 @@ import { Nav } from "react-bootstrap";
 import "./MenuList.css"; 
 import MenuItems from "../MenuItems/MenuItems"; 
 
-const API_URL = "https://deenpnetsoft-menumanage-backend-1.onrender.com";
+const API_URL = "https://deenpnetsoft-menumanage-backend-1.onrender.com/api/menus";
 
 const MenuList: React.FC = () => {
   const [category, setCategory] = useState("");

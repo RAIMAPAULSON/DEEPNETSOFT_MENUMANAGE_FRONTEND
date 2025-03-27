@@ -6,7 +6,7 @@ import axios from "axios";
 import { Modal, Button,Table, Container } from "react-bootstrap";
 
 
-const API_URL = "https://deenpnetsoft-menumanage-backend-1.onrender.com";
+const API_URL = "https://deenpnetsoft-menumanage-backend-1.onrender.com/api/menus";
 
 function Admin() {
   const [menus, setMenus] = useState([]);
