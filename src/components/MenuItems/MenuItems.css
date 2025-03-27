@@ -1,0 +1,125 @@
+body {
+  background-color: black;
+}
+
+.menu-background-container {
+  background-image: url('../../assets/menulist_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+}
+
+.menu-page-wrapper {
+  min-height: 100vh;
+  position: relative;
+  background-color: black;
+  padding: 20px;
+}
+
+.menu-navigation {
+  position: relative;
+  z-index: 2;
+}
+
+.menu-navigation .nav-link {
+  color: white !important;
+  opacity: 0.6;
+  margin: 0 15px;
+}
+
+.menu-navigation .nav-link.active {
+  background-color: #00a4ff !important;
+  color: white !important;
+  opacity: 1;
+}
+
+.menu-container {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid #333;
+  color: white;
+  padding: 40px;
+  position: relative;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.menu-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #a30015, 2px 2px 2px #a30015; 
+    letter-spacing: 2px;
+    text-align: center;
+  
+}
+
+.menu-heading .line {
+  flex: 1;
+  height: 1px;
+  background-color: white;
+  margin: 0 15px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.menu-item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.menu-drink-image {
+  position: absolute;
+  top: -90px; 
+  left: -20px;
+  width: 120px; 
+  height: auto;
+  z-index: 3;
+}
+
+.menu-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.menu-dots {
+  flex-grow: 1;
+  border-bottom: 1px dotted #666;
+  margin: 0 10px;
+}
+
+.menu-price {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.menu-description {
+  color: #999;
+  font-size: 14px;
+  margin-top: 0;
+  line-height: 1.4;
+} 
+.menu-drink-image2 {
+  position: absolute;
+  bottom: -25px;
+  right: -40px; 
+  width: 120px; 
+  height: auto;
+  z-index: 3;
+}
+
+

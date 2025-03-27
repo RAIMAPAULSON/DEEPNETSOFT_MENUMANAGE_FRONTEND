@@ -1,0 +1,28 @@
+.category-tabs-container {
+  background: url("../../assets/categorytab_bg.png") no-repeat center center/cover;
+  background-size: cover;
+  min-height: 100px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category-tab {
+  color: white !important;
+  font-weight: bold;
+  border: 2px solid #008cff !important; 
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent !important;
+}
+
+/* Hover effect */
+.category-tab:hover {
+  background-color: #008cff !important;
+  color: white !important;
+}
+
+/* Active tab */
+.active-tab {
+  background-color: #008cff !important;
+  color: white !important;
+}
